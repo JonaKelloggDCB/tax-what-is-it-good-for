@@ -1,0 +1,47 @@
+# Data — never commit. Re-download from primary sources per DATA_SOURCES.md.
+GSS_sas/
+albus2018/
+albus2021/
+albus2023/
+British social surveys/
+understanding society/
+
+# Outputs (regeneratable)
+output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# LaTeX paper source (kept local)
+main.tex
+bib.bib
+section4_methodology.tex
+section5_results.tex
+section6_discussion.tex
